@@ -26,6 +26,14 @@ class App extends React.Component {
           id: "id"
         }
       ],
+      track: [
+        {
+          name: "name",
+          artist: "artist",
+          album: "album",
+          id: "id"
+        }
+      ],
       playlistName: "test"
     }
     this.addTrack = this.addTrack.bind(this);  
