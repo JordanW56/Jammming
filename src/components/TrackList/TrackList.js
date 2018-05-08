@@ -11,9 +11,7 @@ class TrackList extends React.Component {
         this.props.tracks.map(track => <Track track={track} key={track.id} onAdd={this.props.onAdd} onRemove={this.props.onRemove} isRemoval={this.props.isRemoval} />)
       } 
    
-      {this.props.track.name}
-      {this.props.track.artist}
-      {this.props.track.album}
+
       </div>
     );
   }
