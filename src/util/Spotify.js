@@ -1,5 +1,5 @@
 const clientId = '73299c5fb897476d96f951291ad85bdc'; 
-const redirectUri = 'http://jw-jammming.surge.sh'; 
+const redirectUri = 'http://jw-jammming.surge.sh/'; 
 const accessUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken;
 
